@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+<body>
+    <h3>TABLE SIMPLE</h3>
+    <br>
+    <!-- TAG <table> DIGUNAKAN UNTUK MEMBUAT TABLE -->
+        <!-- TAG <tr> ATAU TABLE ROW DIGUNAKAN UNTUK MEMBUAT BARIS -->
+            <!-- TAG <td> ATAU TABEL DATA DIGUNAKAN UNTUK MEMBUAT KOLOM -->
+
+    <table>
+        <tr>
+            <td>BARIS 1, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+        <tr>
+            <td>BARIS 2, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
+    <h3>TABLE KOMPLEKS</h3>
+    <br>
+    <table border="1">
+        <thead>
+           <tr>
+            <th>%</th>
+            <th>KOLOM 1</th>
+            <th>KOLOM 2</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>BARIS 1</th>
+                <td>BARIS 1, KOLOM 1</td>
+                <td>BARIS 1, KOLOM 2</td>
+            </tr>
+            <tr>
+                <th>BARIS 2</th>
+                <td>BARIS 2, KOLOM 1</td>
+                <td>BARIS 2, KOLOM 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>ATTRIBUT TABLE</h1>
+    <br>
+    <!-- "border" ATTRIBUT INI DIGUNAKAN UNTUK MEMBERIKAN BORDER PADA TABLE -->
+     <!-- "cellspacing" ATTRIBUT INI DIGUNAKAN UNTUK MEMBERIKAN JARAK PADA BORDER -->
+      <!-- "cellpadding" ATTRIBUT INI DIGUNAKAN UNTUK MEMBERIKAN JARAK ANTARA DATA DENGAN BORDER -->
+    <h3>BORDER</h3>
+    <br>
+    <table border="1">
+        <tr>
+            <td>BARIS 1, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+        <tr>
+            <td>BARIS 2, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+    </table>
+    <br>
+
+    <h3>CELLSPACING</h3>
+    <br>
+
+    <table border="1" cellspacing="0">
+        <tr>
+            <td>BARIS 1, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+        <tr>
+            <td>BARIS 2, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+        <br>
+    </table>
+
+    <h3>CELLPADDING</h3>
+    <br>
+    <table border="1" cellpadding="10">
+        <tr>
+            <td>BARIS 1, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+        <tr>
+            <td>BARIS 2, KOLOM 1</td>
+            <td>BARIS 2, KOLOM 2</td>
+        </tr>
+    </table>
+    <br><br><br><br>
+
+
+    <h1>TABLE MERGING AND ATTRIBUT</h1>
+    <br>
+
+    <!-- ATTRIBUT "colspan" DIGUNAKAN UNTUK MENGGABUNGKAN KOLOM -->
+    <!-- ATTRIBUT "rowspan" DIGUNAKAN UNTUK MENGGABUNGKAN BARIS -->
+
+    <h3>COLSPAN</h3>
+     <br>
+
+    <table border="1" cellspacing="1" cellpadding="10">
+        <tr>
+            <td>1,1</td>
+            <td colspan="2">COLSPAN 2</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td>2,2</td>
+            <td>2,3</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h3>ROWSPAN</h3>
+    <br>
+
+    <table border="1" cellspacing="1" cellpadding="10">
+        <tr>
+            <td rowspan="3">ROWSPAN 3</td>
+            <td>1,2</td>
+            <td>1,3</td>
+        </tr>
+        <tr>
+            <td>2,2</td>
+            <td>2,3</td>
+        </tr>
+        <tr>
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+    </table>
+    <br>
+
+    <h3>TRAINING BORDER</h3>
+    <br>
+
+    <table border="1" cellspacing="1" cellpadding="10">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td>2,2</td>
+            <td>2,3</td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+            <td>3,3</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+    <br>
+
+    <h3>TRAINING COLSPAN AND ROWSPAN</h3>
+
+    <table border="1" cellspacing="1" cellpadding="10">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td colspan="2" rowspan="2">COLSPAN 2 <br> ROWSPAN 2</td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table border="1" cellspacing="1" cellpadding="10">
+        <tr>
+            <td>1,1</td>
+            <td colspan="2" rowspan="4">COLSPAN 2 <br> ROWSPAN 4</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table border="1" cellspacing="1" cellpadding="10">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td colspan="4" rowspan="2" align="center">COLSPAN 4 <br> ROWSPAN 2</td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+    
+    
+</body>
+</html>

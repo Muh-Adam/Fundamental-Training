@@ -1,0 +1,18 @@
+/* 
+
+body{
+    background-color: #fff;
+    background-image: url(pattern/wood1.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 50% 50%;
+}
+
+ */
+
+ /* SHORTHAND CSS BACKGROUND */
+
+ body{
+    background: blanchedalmond url(pattern/wood2.jpg) 50% 50% no-repeat;
+    background-size: 200px;
+ }

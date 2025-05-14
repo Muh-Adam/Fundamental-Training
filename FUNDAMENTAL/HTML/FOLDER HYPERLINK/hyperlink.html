@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYPERLINK</title>
+</head>
+<body>
+
+    <h1>HYPERLINK TRAINING</h1>
+
+    <!-- HYPER LINK EKSTERNAL ADALAH HYPERLINK YANG MENGAMBIL SOURCE DARI LUAR DOMAIN -->
+     <!-- ID DALAM TAG <h3> DIGUNAKAN UNTUK HYPERLINK PAGE / ANCOR PAGE JADI TAG YANG ASLI HANYA MENGGUNAKAN TAG <h3> -->
+
+    <h3 id="EKSTERNAL">HYPERLINK EKSTERNAL</h3>
+    <a href="https://google.com">GOOGLE</a>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <!-- HYPERLINK INTERNAL ADALAH HYPERLINK YANG MENGAMBIL SOURCE DARI DOKUMEN YANG MASIH DALAM SATU DOMAIN -->
+
+    <h3 id="INTERNAL">HYPERLINK INTERNAL</h3>
+    <a href="fundamental.html">FUNDAMENTAL HTML</a>
+    <br>
+    <a href="heading dan paragraf.html">HEADING DAN PARAGRAPH</a>
+    <br>
+    <a href="list.html">LIST</a>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- HYPERLINK REELATIF ADALAH HYPERLINK YANG SOURCENYA DIAMBIL DALAM DOMAIN YANG SAMA AKAN TETAPI MEMILIKI FOLDER YANG BERBEDA / TEMPAT PENYIMPANAN DOKUMEN BERBEDA -->
+
+    <h3 id="RELATIF">HYPERLINK RELATIF</h3>
+    <br>
+
+    <!-- CONTOH PERTAMA BERLAKU APABILA SOURCE YANG INGIN DIAMBIL BERADA DI FOLDER DAN DOMAIN YANG SAMA -->
+    <h2>CONTOH PERTAMA</h2>
+    <a href="hyperlinktest1.html">TEST 1</a>
+    <br>
+
+    <!-- CONTOH KEDUA BERLAKU APABILA SOURCE YANG INGIN DIAMBIL  BERADA PADA SOKUMEN YANG BERBEDA -->
+    <h2>CONTOH KEDUA</h2>
+    <!-- TANDA ".." MENUNJUKKAN BAHWA KITA NAIK SATU TINGKATAN ATAU KEMBALI  KE FOLDER SEBELUMNYA -->
+     <!-- "hyperlinktest" MENUNJUKKAN FOLDER -->
+      <!-- "hyperlinktest2" MENUNJUKKAN DOKUMEN -->
+    <a href="../hyperlinktest/hyperlinktest2.html">TEST 2</a>   
+    <br><br><br><br><br><br><br><br><br><br>   
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <h3>PAGE ANCHOR</h3>
+    <!-- PAGE ANCHOR INI DIGUNAKAN PADA SAAT KITA INGIN KE SUATU SECTION ATAU HALAMA YANG ADA DI WEB TERSEBUT, UNTUK PENGGUNAANNYA KITA MEMERLIKAN ID YANG DILETAKKAN PADA SUATU SECTION ATAU HALAMAN DALAM WEB -->
+     <!-- TANDA "#" MENANDAKAN ID -->
+    <a href="#EKSTERNAL">EKSTERNAL</a>
+    <br>
+    <a href="#INTERNAL">INTERNAL</a>
+    <br>
+    <a href="#RELATIF">RELATIF</a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <h3>PAGES ATTRIBUT</h3>
+    <!-- DALAM HYPRTLINK JUGA ADA ATTRIBUT YANG DINAMAKAN TARGET YANG MEMILIKI FUNGSI MASING MASING -->
+     <!-- ATTRIBUT "_self" DIGUNAKAN UNTUK MEMBUKA SOURCE PADA PAGES YANG SAMA -->
+      <!-- ATTRIBUT "_blank" DIGUNAKAN UNTUK MEMBUKA SOURCE PADA PAGES YANG BERBEDA -->
+
+      <a href="hyperlinktest1.html" target="_self">SELF</a>
+      <br>
+      <a href="hyperlinktest1.html" target="_blank">BLANK</a>
+        
+
+
+
+
+</body>
+</html>

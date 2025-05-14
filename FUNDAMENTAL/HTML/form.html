@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+
+    <h1>FORM HTML</h1>
+    <br>
+
+    <!-- TAG <label> DIGUNAKAN AGAR LABEL TERSEBUT TERHUBUNG DENGAN INPUT YANG MEMILIKI ID YANG SAMA DENGAN TABEL -->
+        <!-- TAG <input> DIGUNAKAN UNTUK MEMBERIKAN NILAI INPUT YANG BERBEDA-BEDA TERGANTUNG DENGAN TIPE INPUT -->
+
+    <h3>TIPE INPUT</h3>
+    <br>
+
+    <!-- TYPE "text" DIGUNAKAN UNTUK MEMASUKKAN INPUT APA SAJA SEPERTI HURUF, ANGKA, MAUPUN SIMBOL -->
+     <!-- TYPE "password" DIGUNAKAN AGAR NILAI DARI INPUT TIDAK DAPAT DILIHAT -->
+      <!-- TYPE "radio" DIGUNAKAN UNTUK MEMILIH SALAH SATU DARI BEBERAPA ITEM YANG DISEDIAKAN -->
+       <!-- TYPE "checkbox" DIGUNAKAN UNTUK MENCENTANG ATAU MEMILIH ITEM YANG DISEDIAKAN TANPA BATASAN -->
+        <!-- TYPW "number" DIGUNAKAN UNTUK HANYA MENAMPILKAN NOMOR -->
+         <!-- DALAM TAG <input> KITA JUGA BISA MENGGUNAKAN TYPE "submit", "reset", "button" TETAPI TIDAK DISARANKAN KARENA TYPE TERSEBUT MEMILIKI TAG <button> YANG BISA DIGUNAKAN -->
+            <!-- ADA JUGA INPUT "range", "color", DAN SEBAGAINYA DENGAN FUNGSI MASING-MASING -->
+             <!-- "textarea" DIGUNAKAN UNTUK MENULIS KATA LEBIH BANYAK -->
+              <!-- "select", "option" DIGUNAKAN UNTUK MEMILIH SALAH SATU DARI BEBERAPA PILIHAN -->
+
+    <form>
+        <h5>INPUT TEXT</h5>
+        <label for="USERNAME">USERNAME :</label>
+        <input type="text" id="USERNAME">
+        <br>
+        <h5>INPUT NUMBER</h5>
+        <label for="number">JUMLAH :</label>
+        <input type="number" id="number">
+        <br>
+        <h5>INPUT PASSWORD</h5>
+        <label for="PASSWORD">PASSWORD :</label>
+        <input type="password" id="PASSWORD">
+        <br>
+        <h5>INPUT RADIO</h5>
+        <label for="pria">PRIA</label>
+        <input type="radio" id="pria" name="jeniskelamin">
+        <label for="wanita">WANITA</label>
+        <input type="radio" id="wanita" name="jeniskelamin">
+        <br>
+        <h5>INPUT CHECKBOX</h5>
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">HAMBURGER</label>
+        <input type="checkbox" id="sushi">
+        <label for="sushi">SUSHI</label>
+        <input type="checkbox" id="friedrice">
+        <label for="friedrice">FRIED RICE</label>
+        <br>
+        <h5>INPUT RANGE</h5>
+        <input type="range">
+        <br>
+        <h5>INPUT COLOR</h5>
+        <input type="color">
+        <br>
+        <h5>BUTTON RESET</h5>
+        <button type="reset">RESET</button>
+        <br>
+        <h5>BUTTON SUBMIT</h5>
+        <button type="submit">SUBMIT</button>
+        <br>
+        <h5>TEXTAREA</h5>
+        <textarea></textarea>
+        <br>
+        <h5>COMBO BOX</h5>
+        <select>
+            <option>makassar</option>
+            <option>soppeng</option>
+            <option>bone</option>
+        </select>
+    </form>
+    <br><br><br><br>
+    
+
+    <h1>TRAINING</h1>
+    <br>
+    <table cellpadding="5">
+        <tr>
+            <td align="right"><label for="USERNAME">USERNAME :</label></td>
+            <td><input type="text" id="USERNAME"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="number">UMUR :</label></td>
+            <td><input type="number" id="number"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="PASSWORD">PASSWORD :</label></td>
+            <td><input type="password" id="PASSWORD"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><label for="pria">PRIA</label>
+        <input type="radio" id="pria" name="jeniskelamin">
+        <label for="wanita">WANITA</label>
+        <input type="radio" id="wanita" name="jeniskelamin"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="checkbox" id="hamburger">
+        <label for="hamburger">HAMBURGER</label>
+        <input type="checkbox" id="sushi">
+        <label for="sushi">SUSHI</label>
+        <input type="checkbox" id="friedrice">
+        <label for="friedrice">FRIED RICE</label>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <label for="combo">COMBO BOX :</label>
+            </td>
+            <td><select id="combo">
+                <option>makassar</option>
+                <option>soppeng</option>
+                <option>bone</option>
+                </select></td>
+        </tr>
+        <td align="right"><label for="textarea">TEXT AREA :</label></td>
+        <td colspan="2" rowspan="2" align="left">
+        <textarea id="textarea"></textarea> </td>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td colspan="2"><button type="reset">RESET</button></td>
+            <tr>
+                <td colspan="2"><button type="submit">SUBMIT</button></td>
+            </tr>
+        </tr>
+    </table>
+</body>
+</html>

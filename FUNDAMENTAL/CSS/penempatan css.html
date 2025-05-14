@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENEMPATAN CSS</title>
+
+    <!-- EMBED ADALAH JENIS PENEMPATAN CSS SEPERTI YANG ADA DI BAWAH YANG DIMANA LANGSUNG MENULISKAN CSS PADA TAG <head> -->
+
+    <style>
+    h1{
+        font-family :Arial, Helvetica, sans-serif;
+        color: aqua;
+        font-size: 100 px;
+        text-align: center;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        color: grey;
+        font-size: 25 px;
+        text-align: center;
+    }
+        </style>
+
+        <!-- EKSTERNAL CSS ADALAH PENEMPATAN CSS YANG DIMANA KITA MENEMPATKAN STYLE CSS PADA DOKUMEN YANG BERBEDA DAN MENGGUNAKAN TAG <link> UNTUK MENGHUBUNGKANNYA DENGAN HTML -->
+
+        <link rel="stylesheet" href="eksternal.css">
+
+</head>
+<body>
+    <!-- EMBED ADALAH JENIS PENEMPATAN CSS SEPERTI YANG ADA DI BAWAH YANG DIMANA LANGSUNG MENULISKAN CSS PADA TAG <head> -->
+
+    <h1>EMBED CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium nam corrupti voluptatibus quo dolor vitae harum enim sunt hic, deserunt dignissimos recusandae, voluptates accusamus. Repellat suscipit soluta rem quaerat.</p>
+
+    <br>
+    
+    <!-- INLINE ADALAH PENEMPATAN STYLE CSS LANGSUNG PADA TAG -->
+    <h2 style="text-align: center; color: brown; font-family: Arial, Helvetica, sans-serif; font-size: 100 px;">INLINE CSS</h2>
+    <p style="text-align: center; color: grey; font-family: Arial, Helvetica, sans-serif; font-size: 25 px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, ad nostrum earum sed dolor, repellendus, temporibus ut at eius illum vel officia architecto officiis iusto sapiente veniam explicabo consequuntur.</p>
+
+    <br>
+
+    <!-- EKSTERNAL ADALAH PENEMPATAN CSS PADA DOKUMEN LAIN, SEHINGGA KITA HANYA HARUS MENULISKAN SOURCE DARI DOKUMEN TERSEBUT DI DALAM TAG <head> DAN MENULISKAN STYLE CSS PADA DOKUMEN LAIN TERSEBUT -->
+    <h3>EXTERNAL CSS</h3>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat enim quaerat quia quibusdam, reprehenderit cumque eius ea necessitatibus, aut facere mollitia neque temporibus fugiat nulla commodi illum aspernatur culpa!</h5>
+    
+</body>
+</html>
