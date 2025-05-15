@@ -1,0 +1,93 @@
+/* PSEUDO CLASS ADALAH KELAS SEMU YANG DIMILIKI OLEH SEBUAH ELEMEN HTML, YANG MEMBUAT KITA DAPAT MENDEFINISIKAN STYLE PADA 'KEADAAN TERTENTU' DARI ELEMEN TERSEBUT */
+
+/* PSEUDO CLASS YANG BERHUBUNGAN DENGAN LINK */
+/* "link" STYLE DEFAULT PADA SEBUAH LINK YANG MEMILIKI href*/
+/* "hover" PSEUDO CLASS INI AKTIF APABILA KITA MENYOROT ELEMEN YANG MEMILIKI PSEUDO CLASS TERSEBUT MENGGUNAKAN CURSOR */
+/*  "active" PSEUDO CLASS INI AKTIF KETIKA KITA MENGKLIK LINK YANG MEMILIKI PSEUDO CLASS TERSEBUT */
+/*  "visited" PSEUDO CLASS INI AKTIF KETIKA KITA TELAH MENGUNJUNGI LINK YANG MEMILIKI PSEUDO CLASS TERSEBUT*/
+
+.hai {
+    color:brown;
+}
+
+.hai:hover {
+    font-size: 50px;
+}
+
+.hai:active {
+    color: green;
+}
+
+.hai:visited {
+    font-style: italic;
+}
+
+/* PSEUDO CLASS YANG BERHUBUNGAN DENGAN POSISI ELEMEN (1) */
+/* "first-child" MEMILIH ELEMEN PERTAMA DARI SEBUAH PARENT (ELEMEN PEMBUNGKUSNYA) */
+/*  "last-child" MEMILIH ELEMEN TERAKHIT DARI SEBUAH PARENT (ELEMEN PEMBUNGKUSNYA) */
+/* "nth-child" MEMILIH ELEMEN KE-N DARI SEBUAH PARENT (ELEMEN PEMBUNGKUSNYA). n BISA BERARTI URUTAN (1), (2), (3)..... ATAU POLA (2n), (3n+2), (4n-1) ATAU GANJIL(even) DAN GENAP(odd) */
+
+/* 
+li:first-child a{
+    color: orange;
+}
+
+li:last-child a{
+    color: violet;
+}
+ */
+
+ /* 
+ li:nth-child(1) a{
+    color: red;
+ }
+  */
+
+  /* 
+ li:nth-child(2n) a {
+   color: red;
+ }
+ */
+ 
+ /* 
+  li:nth-child(3n+1) a {
+   color: red;
+ }
+  */
+
+   /* 
+  li:nth-child(4n-2) a {
+   color: red;
+ }
+ */
+
+ /* 
+  li:nth-child(even) a {
+   color: red;
+ }
+  */
+
+
+  /* 
+  li:nth-child(odd) a {
+   color: red;
+ }
+ */
+
+   li:nth-child(odd) a:hover {
+   color: red;
+   font-size: 20px;
+ }
+
+
+ /* PSEUDO CLASS YANG BERHUBUNGAN DENGAN POSISI ELEMEN (2) */
+ /* "first-of-type" MEMILIH ELEMEN PERTAMA DARI SEBUAH JENIS ELEMEN ATAU TIPE TAG */
+ /* "last-of-type" MEMILIH ELEMEN TERAKHIR DARI SEBUAH JENIS ELEMEN ATAU TIPE TAG */
+
+ p:first-of-type{
+    color: blue;
+ }
+
+ p:last-of-type{
+    color: aqua;
+ }
