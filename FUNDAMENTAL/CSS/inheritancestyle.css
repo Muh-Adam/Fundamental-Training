@@ -1,0 +1,30 @@
+/* INHERITANCE */
+/* SEBUAH ELEMEN MEWARISI BEBERAPPA NILAI DARI PROPERTI YANG DIMILIKI OLEH NILAI PARENT-NYA */
+
+/* PROPERTI YANG DIWARISKAN:
+color
+font
+letter-spacing
+line-height
+line-style
+teks-align
+text-indent
+text-transform
+visibility
+white-space
+ */
+
+ /* NAMUN ADA BEBERAPA ELEMEN YANG SECARA DEFAULT TIDAK MEWARISI ELEMEN PARENTNYA */
+ /* SEBAGAI CONTOH TAG <a> YANG SECARA DEFAULT TIDAK MEWARISI WARNA PARENTNYA */
+
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+ }
+
+ /* UNTUK MEMPERBAIKINYA KITA DAPAT MENULIS VALUE "inherit" UNTUK MEWARISKAN ELEMEN PARENTNYA SEPERTI CONTOH DIBAWAH */
+
+ a{
+    color: inherit;
+ }
