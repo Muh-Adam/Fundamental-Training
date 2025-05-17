@@ -1,0 +1,3 @@
+
+// ALLERT DIGUNAKAN UNTUK MEMUNCULKAN POP UP DALAM BROWSER
+alert('nama kamu siapa?')
