@@ -19,9 +19,18 @@
 
 // CONFIRM
 // CONFIRM DIGUNAKAN UNTUK MENDAPATKAN KONFIRMASI DARI USER, KONFIRM BISA DIKOMBINASIKAN DENGAN SUATU KONDISI ATAU EVENT YANG AKAN TERJADI JIKA KITA MENGKLIK SUATU TOMBOLA YANG ADA DALAM CONFIRM TERSEBUT
-// confirm('Apakah kamu yakin?')
+// confirm('Apakah kamu yakin?');
 
 // CONTOH
+// var test = confirm('Apakah kamu yakin?');
+
+// alert(test);
+
+// CONTOH LAIN
 var test = confirm('Apakah kamu yakin?')
 
-alert(test)
+if (test === true){
+    alert('User menekan tombol OK')
+}else {
+    alert('User menekan tombol CANCEL')
+};
