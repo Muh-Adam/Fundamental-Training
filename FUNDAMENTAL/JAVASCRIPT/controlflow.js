@@ -1,0 +1,30 @@
+// NORMAL FLOW TEJADI APABILA PROGRAM DIEKSEKUSI DARI ATAS KE BAWAH ATAU DARI KIRI KE KANAN
+// UNTUK MENGATUR ALIRAN TERSEBUT / CONTROL FLOW, KITA BISA MENGGUNAKAN PENGULANGAN/LOOP ATAU PENGKONDISIAN
+
+//LOOP
+// DIGUNAKAN UNTUK MENGULANGI SUATU SYNTAX HINGGA MENCAPAI KEADAAN TERTENTU
+// PROPERTI LOOP
+// FOR
+// WHILE
+// DO WHILE
+
+alert('Mulai')
+for(var i=0; i<5;i++){
+    alert('Hello Noir');
+}
+alert('Selesai')
+
+// PENGKONDISIAN
+// DIGUNAKAN UNTUK MEMILIH SUATU EVENT ATAU MEMBERIKAN BEBERAPA PILIHAN BESERTA KEJADIAN YANG AKAN TERJADI JIKA MEMILIH PILIHAN TERSEBUT
+// PROPERTI PENGKONDISIAN
+// if
+// if.. else
+// if.. else if.. else
+// switch
+
+var usia = prompt('Berapa usia kamu?')
+if(usia<18){
+    alert('Usia kamu ' + usia + ' Kamu masih anak kecil')
+}else{
+    alert('Usia kamu ' + usia +' Kamu sudah dewasa')
+}
