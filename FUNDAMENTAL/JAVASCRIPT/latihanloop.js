@@ -7,14 +7,14 @@
 // }
 
 var angkot = 1 ;
-var angkotBagus = 6 ;
+var angkotBeroperasi = 6 ;
 var jmlAngkot = 10 ;
 
-while(angkot <= angkotBagus){
+while(angkot <= angkotBeroperasi){
     console.log('Angkot No.' + angkot + ' Beroperasi dengan baik');
     angkot++
 }
 
-for(var angkot = 7; angkot <= jmlAngkot; angkot++ ){
-    console.log('Angkot No.' + angkot + ' Rusak')
+for( angkot = angkotBeroperasi + 1; angkot <= jmlAngkot; angkot++ ){
+    console.log('Angkot No.' + angkot + ' Angkot sedang rusak')
 }
