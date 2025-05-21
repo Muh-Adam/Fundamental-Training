@@ -81,10 +81,31 @@
 // 8.map
 // map, MEMILIKI FUNGSI LOOPING SEPERTI forEach, AKAN TETAPI MAP DAPAT MENGEMBALIKAN ARRAY SEDANGKAN forEach TIDAK
 
+// var angka = [1, 2, 5, 7, 8, 4, 2]
+
+// var angka2 = angka.map(function(e){
+//     return e * 2;
+// })
+
+// console.log(angka2.join(' - '))
+
+
+// 9.sort
+// sort, DIGUNAKAN UNTUK MENGURUTKAN ELEMEN ARRAY, ELEMEN DIURUTKAN BERDASARKAN KARAKTER PERTAMA YANG ADA PADA ARRAY
+
 var angka = [1, 2, 5, 7, 8, 4, 2]
+console.log(angka.join(' - '))
+angka.sort()
+console.log(angka.join(' - '))
 
-var angka2 = angka.map(function(e){
-    return e * 2;
+var angka2 = [1,4,2,7,3,10,9,20]
+angka2.sort()
+console.log(angka2.join(' - '))
+
+// UNTUK MEMPERBAIKINYA, KITA BISA MENGGUNAKAN FUNCTION
+
+var angka2 = [1,4,2,7,3,10,9,20]
+angka2.sort(function(a, b){
+    return a - b;
 })
-
 console.log(angka2.join(' - '))
