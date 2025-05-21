@@ -60,8 +60,8 @@
 // forEach, DIGUNAKAN UNTUK MELAKUKAN LOOPING UNTUK ARRAY
 // forEach = UNTUK SETIAP ELEMEN DI DALAM ARRAY, LAKUKAN .....
 
-var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-var nama = ['noir', 'ken', 'rex', 'loyd', 'javier']
+// var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// var nama = ['noir', 'ken', 'rex', 'loyd', 'javier']
 
 // for(var i = 0 ; i < angka.length ; i++){
 //     console.log(angka[i])
@@ -73,6 +73,18 @@ var nama = ['noir', 'ken', 'rex', 'loyd', 'javier']
 //     console.log(e)
 // })
 
-nama.forEach(function(e, i){
-    console.log('Mahasiswa ke-' + [i + 1] + ' yang bernama ' + e + ' merupakan pemenang')
+// nama.forEach(function(e, i){
+//     console.log('Mahasiswa ke-' + (i + 1) + ' yang bernama ' + e + ' merupakan pemenang')
+// })
+
+
+// 8.map
+// map, MEMILIKI FUNGSI LOOPING SEPERTI forEach, AKAN TETAPI MAP DAPAT MENGEMBALIKAN ARRAY SEDANGKAN forEach TIDAK
+
+var angka = [1, 2, 5, 7, 8, 4, 2]
+
+var angka2 = angka.map(function(e){
+    return e * 2;
 })
+
+console.log(angka2.join(' - '))
