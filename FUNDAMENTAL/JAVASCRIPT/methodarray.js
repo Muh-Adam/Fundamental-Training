@@ -51,7 +51,28 @@
 // slice(indexawal, indexbaru)
 // INDEX AWAL AKAN TERBAWA KE ARRAY YANG BARU SEDANGKAN INDEX AKHIR TIDAK
 
-var arr = ['scorpio', 'leo', 'capricorn', 'aries', 'pisces', 'libra', 'gemini']
-var arr2 = arr.slice(2,5)
-console.log(arr.join(' - '))
-console.log(arr2.join(' - '))
+// var arr = ['scorpio', 'leo', 'capricorn', 'aries', 'pisces', 'libra', 'gemini']
+// var arr2 = arr.slice(2,5)
+// console.log(arr.join(' - '))
+// console.log(arr2.join(' - '))
+
+// 7. forEach
+// forEach, DIGUNAKAN UNTUK MELAKUKAN LOOPING UNTUK ARRAY
+// forEach = UNTUK SETIAP ELEMEN DI DALAM ARRAY, LAKUKAN .....
+
+var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+var nama = ['noir', 'ken', 'rex', 'loyd', 'javier']
+
+// for(var i = 0 ; i < angka.length ; i++){
+//     console.log(angka[i])
+// }
+
+// JIKA DITULIS MENGGUNAKAN forEach akan menjadi
+
+// angka.forEach(function(e){
+//     console.log(e)
+// })
+
+nama.forEach(function(e, i){
+    console.log('Mahasiswa ke-' + [i + 1] + ' yang bernama ' + e + ' merupakan pemenang')
+})
