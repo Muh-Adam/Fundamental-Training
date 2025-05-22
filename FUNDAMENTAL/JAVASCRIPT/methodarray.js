@@ -93,19 +93,39 @@
 // 9.sort
 // sort, DIGUNAKAN UNTUK MENGURUTKAN ELEMEN ARRAY, ELEMEN DIURUTKAN BERDASARKAN KARAKTER PERTAMA YANG ADA PADA ARRAY
 
-var angka = [1, 2, 5, 7, 8, 4, 2]
-console.log(angka.join(' - '))
-angka.sort()
-console.log(angka.join(' - '))
+// var angka = [1, 2, 5, 7, 8, 4, 2]
+// console.log(angka.join(' - '))
+// angka.sort()
+// console.log(angka.join(' - '))
 
-var angka2 = [1,4,2,7,3,10,9,20]
-angka2.sort()
-console.log(angka2.join(' - '))
+// var angka2 = [1,4,2,7,3,10,9,20]
+// angka2.sort()
+// console.log(angka2.join(' - '))
 
 // UNTUK MEMPERBAIKINYA, KITA BISA MENGGUNAKAN FUNCTION
 
-var angka2 = [1,4,2,7,3,10,9,20]
-angka2.sort(function(a, b){
-    return a - b;
+// var angka2 = [1,4,2,7,3,10,9,20]
+// angka2.sort(function(a, b){
+//     return a - b;
+// })
+// console.log(angka2.join(' - '))
+
+
+// 10.filter & find
+//  filter, DIGUNAKAN UNTUK MENCARI NILAI DALAM ARRAY DAN MENGEMBALIKAN HASIL DARI FILTER TERSEBUT DALAM BENTUK ARRAY, FILTER BISA MENCARI NILAI LEBIH DARI SATU
+//  find, DIGUNAKAN UNTUK MENCARI SUATU NILAI DALAM ARRAY, NILAI YANG DIKEMBALIKAN OLEH FIND MASIH BERBENTUK NILAI DAN BUKAN ARRAY. FIND HANYA BISA DIGUNAKAN UNTUK MENCARI SATU NILAI
+
+var  angka = [1,4,2,7,3,10,9,20]
+var angka2 = angka.filter(function (x){
+    return x == 4
 })
+
+// ATAU
+
+var angka3 = angka.filter(function (x){
+    return x < 4
+})
+
+
 console.log(angka2.join(' - '))
+console.log(angka3.join(' - '))
