@@ -140,3 +140,5 @@ var angka2 = angka.find(function(x){
 })
 
 console.log(angka2)
+
+

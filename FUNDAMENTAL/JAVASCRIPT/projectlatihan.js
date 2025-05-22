@@ -20,7 +20,7 @@ var tambahPenumpang = function(namaPenumpang){
                 // jika sudah ada nama yang sama
             }else if(penumpang[i] == namaPenumpang){
                 // tampilkan pesan kesalahannya
-                console.log(namaPenumpang + ' Sudah ada di dalam bus');
+                console.log(namaPenumpang + ' Sudah ada di dalam angkot');
                 // kembalikan isi array dan keluar dari function
                 return penumpang;
 
@@ -32,3 +32,67 @@ var tambahPenumpang = function(namaPenumpang){
         }
     }
 }
+
+
+
+var hapusPenumpang = function(namaPenumpang){
+    if(penumpang.length == 0){
+        console.log('Angkot masih kosong');
+        return penumpang;
+    }else{
+        for(var j = 0 ; j  < penumpang.length ; j++){
+            if( penumpang[j] == namaPenumpang){
+                penumpang[j] = undefined;
+                return penumpang;
+            }else if (j == penumpang.length - 1){
+                console.log('Tidak ada penumpang bernama ' + namaPenumpang + ' di dalam angkot');
+                return penumpang;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     if(penumpang.length == 0){
+//         console.log('Angkot masih kosong');
+//         return penumpang;
+//     }
+//     for(var j = penumpang.length; j >= 0 ; j--){
+//     if(namaPenumpang == penumpang[j]){
+//         penumpang[j] == undefined;
+//         return penumpang;
+//     }else if( namaPenumpang != penumpang[j]){
+//         console.log(namaPenumpang + ' Tidak ada di angkot');
+//         return penumpang;
+//         }
+//     }
+// }
