@@ -132,9 +132,11 @@
 // console.log(angka3.join(' - '))
 
 // FIND
+// JIKA MENGGUNAKA > MAKA AKAN MENCARI NILAI YANG PALING BESAR
+// JIKA MENGGUNAKAN < MAKA AKAN MENCARI NILAI YANG PALING KECIL
 var  angka = [1,4,2,7,3,10,9,20]
 var angka2 = angka.find(function(x){
-    return x < 9
+    return x == 9
 })
 
 console.log(angka2)
