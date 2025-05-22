@@ -115,17 +115,26 @@
 //  filter, DIGUNAKAN UNTUK MENCARI NILAI DALAM ARRAY DAN MENGEMBALIKAN HASIL DARI FILTER TERSEBUT DALAM BENTUK ARRAY, FILTER BISA MENCARI NILAI LEBIH DARI SATU
 //  find, DIGUNAKAN UNTUK MENCARI SUATU NILAI DALAM ARRAY, NILAI YANG DIKEMBALIKAN OLEH FIND MASIH BERBENTUK NILAI DAN BUKAN ARRAY. FIND HANYA BISA DIGUNAKAN UNTUK MENCARI SATU NILAI
 
+// FILTER
+// var  angka = [1,4,2,7,3,10,9,20]
+// var angka2 = angka.filter(function (x){
+//     return x == 4
+// })
+
+// // ATAU
+
+// var angka3 = angka.filter(function (x){
+//     return x > 4
+// })
+
+
+// console.log(angka2.join(' - '))
+// console.log(angka3.join(' - '))
+
+// FIND
 var  angka = [1,4,2,7,3,10,9,20]
-var angka2 = angka.filter(function (x){
-    return x == 4
+var angka2 = angka.find(function(x){
+    return x < 9
 })
 
-// ATAU
-
-var angka3 = angka.filter(function (x){
-    return x < 4
-})
-
-
-console.log(angka2.join(' - '))
-console.log(angka3.join(' - '))
+console.log(angka2)
