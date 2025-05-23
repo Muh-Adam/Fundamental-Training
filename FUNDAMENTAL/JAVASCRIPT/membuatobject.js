@@ -34,7 +34,7 @@ var buatObjekMahasiswa = function(nama, universitas, jurusan, Nim){
 
 
 
-// CONSTRUCTION
+// CONSTRUCTOR
 // PEMBUATAN OBJEK MENGGUNAKAN CONSTRUCTION HARUS MENGGUNAKAN METHOD this. AGAR OBJEK DAPAT TERDAFTAR PADA SUATU VARIABEL
 
 var mahasiswa = function(nama, universitas, jurusan, Nim){
