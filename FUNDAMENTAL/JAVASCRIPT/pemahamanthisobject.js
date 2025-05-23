@@ -22,9 +22,10 @@ obj.halo()
 
 
 // cara 3 constructor
-function Hai(){
+function Halo(){
     console.log(this)
     console.log('halo')
 }
 
-new Hai()
+new Halo()
+// DALAM CONSTRUCTOR, this MENGEMBALIKAN OBJEK YANG BARU SAJA DIBUAT
