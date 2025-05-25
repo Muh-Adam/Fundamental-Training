@@ -1,0 +1,181 @@
+<mxfile host="65bd71144e">
+    <diagram id="jR4vRqi5hpnt1aFqBUKN" name="Page-1">
+        <mxGraphModel dx="15315" dy="2815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="5000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="73" value="&lt;ul&gt;&lt;li&gt;Keduanya merupakan kumpulan Node&lt;/li&gt;&lt;li&gt;Struktur datanya mirip Array&lt;/li&gt;&lt;li&gt;NodeList dapat berisi Node apapun, Sedangkan HTMLCollectiob hanya boleh berisi Elemen&lt;/li&gt;&lt;li&gt;HTMLCollection bersifat &lt;i&gt;live&lt;/i&gt;, Sedangkan NodeList tidak&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="2490" y="2380" width="2245" height="890" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=10;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="950" y="1265" width="1220" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="3150" y="1410" width="10" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="1200" width="10" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1540" y="1200" width="10" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1950" y="800" width="10" height="980" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2340" y="1200" width="10" height="980" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2740" y="1210" width="10" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="790" width="10" height="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="340" width="240" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="DOM TREE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=14;fontSize=50;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="50" width="340" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;b&gt;Text&lt;/b&gt;&lt;div&gt;&lt;b&gt;&quot;paragraf 3&quot;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;spacingBottom=0;arcSize=0;" vertex="1" parent="1">
+                    <mxGeometry x="2200" y="2160" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="280" y="1330" width="3000" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="29">
+                    <mxGeometry x="2570" y="60" width="160" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;title&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="29">
+                    <mxGeometry width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;p&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="29">
+                    <mxGeometry x="1120" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;h1&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="29">
+                    <mxGeometry x="750" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;p&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="29">
+                    <mxGeometry x="1520" y="10" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;div&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="29">
+                    <mxGeometry x="1920" y="10" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;a&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="29">
+                    <mxGeometry x="2320" y="10" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Attribute&lt;div&gt;href = &quot; &quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;fontStyle=1" vertex="1" parent="29">
+                    <mxGeometry x="2720" y="10" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;strokeWidth=10;" vertex="1" parent="29">
+                    <mxGeometry x="695" y="-60" width="390" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="278" y="880" width="1800" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;sub&gt;&amp;lt;head&amp;gt;&lt;/sub&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="30">
+                    <mxGeometry width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;body&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="30">
+                    <mxGeometry x="1520" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="840" y="240" width="280" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="DOCUMENT" style="rounded=1;whiteSpace=wrap;html=1;fontSize=40;fontStyle=1" vertex="1" parent="31">
+                    <mxGeometry width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Element&lt;div&gt;&amp;lt;HTML&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=40;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="840" y="620" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="800" width="1560" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="1180" width="1590" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;Text&lt;/b&gt;&lt;div&gt;&lt;b&gt;&quot;DOM TREE&quot;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1740" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;b&gt;Text&lt;/b&gt;&lt;div&gt;&lt;b&gt;&quot;halaman2.html&quot;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=30;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="3000" y="1740" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;b&gt;Text&lt;/b&gt;&lt;div&gt;&lt;b&gt;&quot;ke halaman 2&quot;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="2600" y="1740" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b&gt;Element&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;lt;p&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="2200" y="1740" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b&gt;Text&lt;/b&gt;&lt;div&gt;&lt;b&gt;&quot;paragraf 2&quot;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1800" y="1740" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;Text&lt;/b&gt;&lt;div&gt;&lt;b&gt;&quot;paragraf 1&quot;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1400" y="1740" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;b&gt;Text&lt;/b&gt;&lt;div&gt;&lt;b&gt;&quot;HELLO WORLD&quot;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=30;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="1740" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;ul&gt;&lt;li&gt;Elemen&lt;/li&gt;&lt;li&gt;Attribute&lt;/li&gt;&lt;li&gt;Text&lt;/li&gt;&lt;li&gt;CData Section&lt;/li&gt;&lt;li&gt;Entity Reference&lt;/li&gt;&lt;li&gt;Entitiy&lt;/li&gt;&lt;li&gt;Processing Instruction&lt;/li&gt;&lt;li&gt;Comment&lt;/li&gt;&lt;li&gt;Document&lt;/li&gt;&lt;li&gt;Document Type&lt;/li&gt;&lt;li&gt;Document Fragment&lt;/li&gt;&lt;li&gt;Notation&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="2230" width="1270" height="890" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="TIPE-TIPE NODE" style="text;strokeColor=none;fillColor=none;html=1;fontSize=70;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="-30" y="2130" width="940" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=classic;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1000" y="1270" as="sourcePoint"/>
+                        <mxPoint x="940" y="1160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="NODE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;fontSize=52;fontStyle=1;fontColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="1100" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="endArrow=classic;html=1;strokeWidth=5;strokeColor=#3535FF;" edge="1" parent="1" target="67">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1520" y="1900" as="sourcePoint"/>
+                        <mxPoint x="1520" y="2220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="&lt;font style=&quot;color: rgb(53, 53, 255);&quot;&gt;NODE LIST&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1;fontSize=52;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="2220" width="370" height="315" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=10;strokeColor=#33FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1750" y="1260" width="1180" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="endArrow=classic;html=1;strokeWidth=5;strokeColor=#33FFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2340" y="1260" as="sourcePoint"/>
+                        <mxPoint x="2590" y="950" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="&lt;font style=&quot;color: rgb(51, 255, 255);&quot;&gt;HTMLCollection&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=52;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2410" y="820" width="400" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="NodeList VS. HTMLCollection" style="text;strokeColor=none;fillColor=none;html=1;fontSize=70;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="2520" y="2535" width="940" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Struktur Hierarki DOM" style="text;strokeColor=none;fillColor=none;html=1;fontSize=70;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="3860" y="990" width="940" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;ul&gt;&lt;li&gt;Root Node&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=50;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="3940" y="1105" width="370" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;ul&gt;&lt;li&gt;Node yang menjadi sumber dari Node lain di dalam DOM&lt;/li&gt;&lt;li&gt;Secara default, Node tersebut berupa Document&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=45;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="4010" y="1230" width="1410" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="&lt;ul&gt;&lt;li&gt;Parent Node&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=50;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="3950" y="1410" width="370" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;ul&gt;&lt;li&gt;Node yang berada satu tingkat diatas Node lain&lt;/li&gt;&lt;li&gt;body adalah parent dari h1, p, p, div, dan a&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=45;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="4010" y="1585" width="1670" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="&lt;ul&gt;&lt;li&gt;Child Node&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=50;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="3950" y="1770" width="370" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;ul&gt;&lt;li&gt;Node yang berada satu tingkat dibawah Node lain&lt;/li&gt;&lt;li&gt;h1 adalah child dari body&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=45;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="4010" y="1950" width="1670" height="210" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
