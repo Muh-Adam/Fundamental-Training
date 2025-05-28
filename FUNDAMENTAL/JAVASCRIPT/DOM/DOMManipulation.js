@@ -84,3 +84,19 @@ pBaru.appendChild(textpBaru);
 const sectA = document.getElementById('a');
 
 sectA.appendChild(pBaru);
+
+
+
+// List Baru
+const liBaru = document.createElement('li');
+const textliBaru = document.createTextNode('List Item Baru');
+
+
+// Menyimpan list kedalam element
+liBaru.appendChild(textliBaru);
+
+// Menyimpan sebelum li 2
+const ul = document.querySelector('section#b ul');
+const li2 = ul.querySelector('li:nth-child(2)');
+
+ul.insertBefore(liBaru, li2);
