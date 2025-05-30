@@ -32,8 +32,19 @@ button.after(button2)
 
 // Memberikan event pada button kedua
 button2.addEventListener('click', function(){
-    let random = Math.random()*10
-    console.log(random)
+    const random = Math.round(Math.random()*10+1)
+        if(random < 2){
+            body.style.backgroundColor='lightblue';
+        }else if(random < 4){
+            body.style.backgroundColor='grey';
+        }else if(random < 6){
+            body.style.backgroundColor='red';
+        }else if(random < 8){
+            body.style.backgroundColor='lightgreen';
+        }else{
+            body.style.backgroundColor='salmon';
+        }
+        console.log(random)
 })
 
 
