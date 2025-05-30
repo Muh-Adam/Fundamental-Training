@@ -100,3 +100,36 @@ const ul = document.querySelector('section#b ul');
 const li2 = ul.querySelector('li:nth-child(2)');
 
 ul.insertBefore(liBaru, li2);
+
+
+
+// Get parent and child
+const parent = document.getElementById('a');
+const child = document.querySelector('section#a a');
+
+// Remove child
+parent.removeChild(child);
+
+
+
+// Get parent and child 
+const sectB = document.getElementById('b');
+const p4 =  sectB.getElementsByTagName('p')[0];
+
+// Create Element
+const h2Baru = document.createElement('h2');
+const textH2Baru = document.createTextNode('Judul Baru');
+
+// Hubungkan text dan element
+h2Baru.appendChild(textH2Baru);
+
+// Replace child
+sectB.replaceChild( h2Baru ,p4);
+
+
+
+
+// Give color to new element
+pBaru.style.backgroundColor = 'lightgreen'
+liBaru.style.backgroundColor = 'lightgreen'
+h2Baru.style.backgroundColor = 'lightgreen'
