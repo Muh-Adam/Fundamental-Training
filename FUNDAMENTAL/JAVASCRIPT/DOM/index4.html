@@ -6,6 +6,9 @@
     <title>Coloring with JS</title>
 
     <style>
+        html, body{
+            height: 100%;
+        }
         body{
             text-align: center;
         }
@@ -20,8 +23,16 @@
             margin: 10px auto;
         }
 
-        .merah {
+        .merah{
             background-color: red;
+        }
+
+        .hijau{
+            background-color: green;
+        }
+
+        .biru{
+            background-color: blue;
         }
     </style>
 
@@ -31,10 +42,20 @@
     <h1>Coloring With Js</h1>
     <button type = 'button' class="button">Ganti Warna</button>
 
-    <br><br><br><br>
+    <br><br><br>
 
     <div class="bola merah"></div>
         <input type="range" name="sMerah" min="0" max="255">
+    
+        <br><br>
+
+    <div class="bola hijau"></div>
+        <input type="range" name="sHijau" min="0" max="255">
+    
+        <br><br>
+
+    <div class="bola biru"></div>
+        <input type="range" name="sBiru" min="0" max="255">
     
 
 

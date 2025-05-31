@@ -60,9 +60,39 @@ button2.addEventListener('click', function(){
 // Color Range
 
 const sMerah = document.querySelector('input[name = sMerah]');
+const sHijau = document.querySelector('input[name = sHijau]');
+const sBiru = document.querySelector('input[name = sBiru]');
 
 sMerah.addEventListener('change', function(){
     const r = sMerah.value
-    console.log(r)
-})
+    const g = sHijau.value
+    const b = sBiru.value
+    
+    body.style.backgroundColor = 'rgb('+ r +', '+ g +' , '+ b +')'
+});
 
+sHijau.addEventListener('change', function(){
+    const r = sMerah.value
+    const g = sHijau.value
+    const b = sBiru.value
+    
+    body.style.backgroundColor = 'rgb('+ r +', '+ g +' , '+ b +')'
+});
+
+sBiru.addEventListener('change', function(){
+    const r = sMerah.value
+    const g = sHijau.value
+    const b = sBiru.value
+    
+    body.style.backgroundColor = 'rgb('+ r +', '+ g +' , '+ b +')'
+});
+
+
+// Coloring With Mouse Movement
+
+body.addEventListener('mousemove', function(event){
+    const xPos = Math.round((event.clientX / window.innerWidth)*255);
+    const yPos = Math.round((event.clientY / window.innerHeight)*255);
+
+    body.style.backgroundColor = 'rgb('+ xPos +', '+ yPos +', 100)';
+})
